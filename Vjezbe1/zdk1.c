@@ -49,7 +49,7 @@ int Ucitaj(int n, _Student *S){
     fp=fopen("studenti.txt", "r");
 
     for(i=0; i<n; i++){
-        fscanf(fp, "%s %s %d", S[i].ime, S[i].prezime, &S[i].apsbod);
+        fscanf(fp, "%s %s %d",  S[i].ime, S[i].prezime, &S[i].apsbod);
     }
 
     fclose(fp);
