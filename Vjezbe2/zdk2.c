@@ -210,13 +210,13 @@ int Erase(char S[20], Position P){
     Position temp=Alloc();
 
     P=FindPrevious(S, P);
+    if(P==NULL) return EXIT_FAILURE;
     if(P != NULL){
         temp = P->Next;
         P->Next = temp->Next;
         temp=NULL;
         free(temp);
     }
-    if(P==NULL) return EXIT_FAILURE;
 
     return EXIT_SUCCESS;
 }
