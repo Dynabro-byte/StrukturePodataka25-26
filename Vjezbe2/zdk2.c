@@ -214,7 +214,7 @@ int Erase(char S[20], Position P){
     if(P != NULL){
         temp = P->Next;
         P->Next = temp->Next;
-        temp=NULL;
+        temp->Next=NULL;
         free(temp);
     }
 
