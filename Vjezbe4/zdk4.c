@@ -146,7 +146,7 @@ int fileReader(Position Start, int num){
     while(feof(fp) == 0){
         Position Q = (Position)malloc(sizeof(Poly));
         if(Q == NULL){
-            printf("G");
+            printf("Error!");
             return EXIT_FAILURE;
         }
 
