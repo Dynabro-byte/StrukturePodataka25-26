@@ -1,0 +1,3 @@
+Paris 2000000
+Dunkirk 90123
+Marseilles 145345
