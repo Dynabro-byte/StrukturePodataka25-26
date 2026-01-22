@@ -1,0 +1,3 @@
+France C:\\Users\\Admin\\OneDrive\\Desktop\\StrukturePodataka25-26\\Vjezbe10\\fr.txt
+Germany C:\\Users\\Admin\\OneDrive\\Desktop\\StrukturePodataka25-26\\Vjezbe10\\ger.txt
+Croatia C:\\Users\\Admin\\OneDrive\\Desktop\\StrukturePodataka25-26\\Vjezbe10\\hrv.txt
