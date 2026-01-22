@@ -142,11 +142,11 @@ TreePosition TreeInput(TreePosition rootDummy, char* city, int pop){
         return rootDummy;
     }
     else if(rootDummy->population < pop){
-        rootDummy = TreeInput(rootDummy->Right, city, pop);
+        rootDummy->Right = TreeInput(rootDummy->Right, city, pop);
         return rootDummy;
     }
     else if(rootDummy->population > pop){
-        rootDummy = TreeInput(rootDummy->Left, city, pop);
+        rootDummy->Left = TreeInput(rootDummy->Left, city, pop);
         return rootDummy;
     }
 
